@@ -30,10 +30,10 @@ void main(){
 
 		BeginDrawing();
 			ClearBackground(GRAY);
-			DrawFPS(w - 90, h - 30);
+			DrawFPS(w - 90, h - 10);
 			RenderMap(map,32,32);
 			//player
-			 DrawRectangle(player.x,player.y,32,32,ORANGE); 
+			DrawRectangle(player.x,player.y,32,32,ORANGE); 
 			//platform
 			 //DrawRectangle(flr.x,flr.y,flr.width,flr.height,BLUE);
 
